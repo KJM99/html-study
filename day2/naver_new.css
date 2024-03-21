@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  flex: 1;
+}
+
+.container1 {
+  align-self: center;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.img_size {
+  width: 180px;
+  height: 100%;
+}
+
+.img_size:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.text_ {
+  text-align: center;
+  padding: 5px;
+}
+
+.stock0 {
+  padding: 10px;
+  max-height: 150px;
+}
+
+.stock {
+  display: flex;
+  max-height: 130px;
+  flex: 1;
+}
+
+.stock2 {
+  flex: 1;
+  border-left: 3px solid red;
+  padding: 5px;
+}
+
+.whole {
+  display: inline-flex;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+}
+
+.percent {
+  background-color: rgb(236, 182, 182);
+  color: red;
+  margin: 5px;
+  width: 50%;
+}
