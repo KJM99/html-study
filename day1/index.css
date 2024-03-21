@@ -1,0 +1,27 @@
+#title {
+  background-color: black;
+  color: white;
+}
+
+#skyblue {
+  background-color: #adf;
+}
+
+#green {
+  background-color: #97ecab;
+}
+
+#yellow {
+  background-color: #ff9;
+}
+
+#gray {
+  background-color: #888597;
+  color: white;
+}
+
+table:hover {
+  color: chocolate;
+  transition: all 1s ease;
+  transform: rotate(18deg) scale(1.5) translate3d(12px, 50%, 3em);
+}
