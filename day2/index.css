@@ -13,3 +13,8 @@ a {
   min-height: 100px;
   background-color: blue;
 }
+
+.box img {
+  width: 100rem;
+  min-height: 10vh;
+}
