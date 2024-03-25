@@ -42,3 +42,4 @@ classRoom.list[0] = 100;
 console.log(classRoom.list);
 
 const list2 = classRoom.list;
+// list = classRoom.list = list2 다 같은거라 한놈만 바꿔도 다 바뀜
