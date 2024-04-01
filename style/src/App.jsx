@@ -1,15 +1,17 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
+import { Button } from "reactstrap";
 import "./App.css";
 // git switch -c bootstrap
 function App() {
   return (
     <>
       <div className="box"></div>
-      <div
-        style={{ width: "100px", height: "100px", backgroundColor: "red" }}
-      ></div>
+      <div className="box"></div>
+      <Button color="danger">danger</Button>
     </>
   );
 }
