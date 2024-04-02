@@ -1,5 +1,5 @@
 import { useRecoilState } from "recoil";
-import { countState, countLogState } from "../store/countState";
+import { countState } from "../store/countState";
 
 const ViewCount = () => {
   const cnt = useRecoilState(countState);
